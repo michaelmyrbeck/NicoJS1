@@ -4,8 +4,7 @@ var textInput = document.querySelector('#text-input1')
 var body = document.querySelector('body')
 
 button2.onclick = function () {
-    var textInputValue = textInput.value
     var newPar = document.createElement('p')
-    newPar.innerHTML = textInputValue;
+    newPar.innerHTML = textInput.value
     body.appendChild(newPar);
 }
